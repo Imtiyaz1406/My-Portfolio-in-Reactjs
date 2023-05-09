@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=B612&family=Balsamiq+Sans:ital,wght@0,400;0,700;1,700&family=Kaisei+Decol:wght@400;500;700&family=Merriweather&family=Mouse+Memoirs&family=Oswald:wght@300&family=Poppins:ital,wght@0,400;1,300;1,400&display=swap');
+
+* {
+  font-family: 'Kaisei Decol', serif;
+}
+
 .App {
   text-align: center;
 }
@@ -32,7 +38,178 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.container {
+  /* background-color: black; */
+  display: flex;
+  justify-content: left;
+  /* align-items: center; */
+  width: 900px;
+  margin-top: 40px;
+}
+
+.nav {
+  /* background-color: blue; */
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 20px;
+  position: sticky;
+  top: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  color: dodgerblue;
+}
+
+.logo {
+  font-family: 'Kaisei Decol', serif;
+  color: white;
+  background-color: black;
+  padding: 7px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.myPic {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+
+}
+
+.pictureSocial {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  flex-direction: column;
+  color: gray;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+span{
+  margin-left: 5px;
+}
+.socialIcons p {
+  padding: 0px 10px;
+  margin: 2px;
+}
+
+.about {
+  margin: 50px;
+  /* background-color: gray; */
+  width: 70vw;
+  text-align: center;
+}
+
+.networks {
+  margin-top: 30px;
+  display: flex;
+  gap: 6rem;
+}
+
+/* education */
+.edu{
+  margin: 5px;
+  /* background-color: gray; */
+  width: 100vw;
+  text-align: center;
+}
+.uok-img {
+  width: 400px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.uok-edu {
+  display: flex;
+  gap: 2rem;
+}
+
+h2 {
+  color: dodgerblue;
+
+}
+
+/* Projects */
+.cheeg-link {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.cheeg-link:hover {
+  width: 250px;
+  height: 250px;
+  transition: 0.5s;
+
+}
+
+.projects {
+  margin: 50px;
+  width: 60vw;
+  text-align: center;
+
+}
+
+.project-list {
+  width: 80vw;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+/* About */
+.About {
+  margin: 50px;
+  /* background-color: gray; */
+  width: 70vw;
+  text-align: left;
+}
+.btns{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin:10px;
+}
+.btn{
+  border: 1px solid gray;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: rgb(89, 88, 88);
+  gap: 12px;
+}
+.btn:hover{
+  color: dodgerblue;
 }
