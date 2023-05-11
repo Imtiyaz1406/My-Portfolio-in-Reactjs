@@ -8,10 +8,10 @@ function Education() {
         <img src={uok} alt="" className='uok-img' />
         <div className="uok-details">
           <h2>University of Kashmir</h2>
-          <h3>Department : </h3>
+          <h4>Department : </h4>
           <h3>Information Technology and Support System ( IT & SS)</h3>
-          <h3>MSc IT (2019 - 2022)</h3>
-          <p>CGP (8.2)</p>
+          <h4>MSc IT (2019 - 2022)</h4>
+          <h5>CGP (8.2)</h5>
         </div>
       </div>
       <hr />
@@ -20,10 +20,10 @@ function Education() {
         <img src={sp} alt="" className='uok-img' />
         <div className="uok-details">
           <h2>University of Kashmir</h2>
-          <h3>College :</h3>
+          <h4>College :</h4>
           <h3>Sri Pratap Singh College Srinagar</h3>
-          <h3>BSc(2015 - 2019)</h3>
-          <p>CGP (7.4)</p>
+          <h4>BSc(2015 - 2019)</h4>
+          <h5>CGP (7.4)</h5>
         </div>
       </div>
 

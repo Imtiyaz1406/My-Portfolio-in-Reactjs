@@ -115,6 +115,9 @@ h2 {
   color: dodgerblue;
 
 }
+.uok-details h2, h3, h4,h5{
+margin: 0px;
+}
 
 /* Projects */
 .cheeg-link {
@@ -168,4 +171,25 @@ h2 {
 }
 .btn:hover{
   color: dodgerblue;
+}
+
+@media (max-width:1200px){
+  .uok-edu{
+    display: inline;
+  }
+  .uok-img {
+    width: 70vw;
+    height: 40vh;
+    margin-bottom: 10px;
+  }
+  h3{
+    color: dodgerblue;
+  }
+}
+@media (max-width:700px){
+  .uok-img {
+    width: 50vw;
+    height: 15vh;
+    margin-bottom: 10px;
+  }
 }
