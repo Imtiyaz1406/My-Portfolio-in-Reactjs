@@ -8,7 +8,7 @@
   display: flex;
   justify-content: left;
   width: 80vw;
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
 .nav {
@@ -16,9 +16,10 @@
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  margin: 20px;
-  position: sticky;
-  top: 0;
+  margin: 10px;
+  padding: 15px 25px;
+  height: 100vh;
+  background-color: rgb(243, 239, 239);
 }
 
 a {
@@ -173,6 +174,47 @@ margin: 0px;
   color: dodgerblue;
 }
 
+/* contact */
+.form{
+  margin: 15px;
+ width: 50vw;
+ display: flex;
+ flex-direction: column;
+ gap: 12px;
+
+}
+.form input{
+  border: 1px solid gray;
+  border-radius: 9px;
+  padding: 10px;
+  color: black;
+  font-size: 23px;
+
+
+}
+.form .btn{
+  background-color: rgb(183, 205, 227);
+  color: rgb(0, 128, 255);
+  font-size: 20px;
+  font-weight: bold;
+}
+::placeholder{
+  color: rgb(14, 74, 133);
+}
+
+.ph{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: dodgerblue;
+}
+.phn{
+  /* color: dodgerblue; */
+}
+
+
+
 @media (max-width:1200px){
   .uok-edu{
     display: inline;
@@ -191,5 +233,17 @@ margin: 0px;
     width: 50vw;
     height: 15vh;
     margin-bottom: 10px;
+  }
+  .form{
+   width: 69vw;
+  }
+  .form input{
+    font-size: 13px;
+  }
+}
+@media(min-width:1200px){
+  .nav{
+    background-color: white;
+    padding: 10px 0px 10px 20px;
   }
 }
