@@ -75,7 +75,7 @@ span{
   margin-left: 5px;
 }
 .lIn{
-  margin-left: 18px;
+  margin-left: 6px;
 }
 .socialIcons p {
   padding: 0px 10px;
@@ -83,7 +83,7 @@ span{
 }
 
 .about {
-  margin: 50px;
+  margin: 10px;
   width: 100vw;
   text-align: left;
 }
@@ -96,7 +96,7 @@ span{
 
 /* education */
 .edu{
-  margin: 5px;
+  margin: 10px;
   width: 100vw;
   text-align: center;
 }
@@ -131,7 +131,8 @@ h2 {
 }
 
 .projects {
-  margin: 50px;
+  margin: 10px;
+  width: 100vw;
   text-align: center;
 
 }
@@ -148,7 +149,7 @@ h2 {
 
 /* About */
 .About {
-  margin: 50px;
+  margin: 10px;
   width: 70vw;
   text-align: left;
 }
