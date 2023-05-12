@@ -1,7 +1,7 @@
 function Contact() {
   return (
     <div className="contact">
-      <h2>Imtiyaz Bhat</h2>
+      <h2>Imtiyaz Majeed Bhat</h2>
       <div className="myContact">
         <div className="ph">
           <a href="+918825030410" className="phn"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
@@ -23,8 +23,6 @@ function Contact() {
 
         <label for="w3review">Discription:</label>
         <textarea rows="4" cols="10"></textarea>
-
-
         <button className="btn">Submit</button>
       </div>
     </div>

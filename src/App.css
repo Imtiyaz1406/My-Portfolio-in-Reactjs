@@ -196,6 +196,12 @@ margin: 0px;
   color: rgb(0, 128, 255);
   font-size: 20px;
   font-weight: bold;
+  cursor: pointer;
+}
+.form .btn:hover{
+  background-color: rgb(159, 190, 221);
+  color: rgb(0, 103, 205);
+  transition: 0.5s;
 }
 ::placeholder{
   color: rgb(14, 74, 133);

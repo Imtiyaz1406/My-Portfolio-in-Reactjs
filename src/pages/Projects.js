@@ -2,6 +2,7 @@ import cheeg from '../imgs/cheeg.JPG';
 import guessNoGame from '../imgs/Guess the no. Game.JPG';
 import quotes from '../imgs/Generate quotes.JPG';
 import todo from '../imgs/todo.JPG';
+import portfolio from '../imgs/portflio.JPG';
 function Projects() {
   return (
     <div className="projects">
@@ -33,6 +34,13 @@ function Projects() {
           <a href="https://generate-quotes.vercel.app/"><img src={quotes} alt="" className='vercel-link' /></a>
           <h4>(Generate Random Quotes)</h4>
           <a href="https://github.com/Imtiyaz1406/Generate-Quotes">Source Code</a>
+        </div>
+
+        <div className="cheeg">
+          <h4>Project No.5</h4>
+          <a href="https://my-portfolio-in-reactjs-sigma.vercel.app/"><img src={portfolio} alt="" className='vercel-link' /></a>
+          <h4>(My Personal Portfolio)</h4>
+          <a href="https://github.com/Imtiyaz1406/My-Portfolio-in-Reactjs">Source Code</a>
         </div>
 
       </div>
